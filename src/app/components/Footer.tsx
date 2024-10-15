@@ -42,10 +42,10 @@ const Footer = () => {
                 maxOpacity={0.4}
                 duration={3}
                 repeatDelay={1}
-                className={cn(
-                    "[mask-image:radial-gradient(3000px_circle_at_center,white,transparent)]",
+                className={
+                    "[mask-image:radial-gradient(3000px_circle_at_center,white,transparent)]" +
                     "inset-y-[-50%] h-[200%] skew-y-6"
-                )}
+                }
             />
         </footer>
     );
